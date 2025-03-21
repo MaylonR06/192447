@@ -2,37 +2,37 @@ import java.util.Scanner;
 
 public class EjercicioTerrible {
     public static void main(String[] args) {
-        Scanner x = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese el nombre del primer estudiante:");
-        String a = x.nextLine();
+        String nombre1 = scanner.nextLine();
         System.out.println("Ingrese la edad:");
-        int b = x.nextInt();
-        x.nextLine();
+        int edad1 = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Ingrese el nombre del segundo estudiante:");
-        String c = x.nextLine();
+        String nombre2 = scanner.nextLine();
         System.out.println("Ingrese la edad:");
-        float d = x.nextFloat();
-        x.nextLine();
+        int edad2 = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Ingrese el nombre del tercer estudiante:");
-        String e = x.nextLine();
+        String nombre3 = scanner.nextLine();
         System.out.println("Ingrese la edad:");
-        double f = x.nextDouble();
-        x.nextLine();
+        int edad3 = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Ingrese el nombre del cuarto estudiante:");
-        String g = x.nextLine();
+        String nombre4 = scanner.nextLine();
         System.out.println("Ingrese la edad:");
-        short h = x.nextShort();
-        x.nextLine();
+        int edad4 = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Ingrese el nombre del quinto estudiante:");
-        String i = x.nextLine();
+        String nombre5 = scanner.nextLine();
         System.out.println("Ingrese la edad:");
-        byte j = x.nextByte();
-        x.nextLine();
+        int edad5 = scanner.nextInt();
+        scanner.nextLine();
 
         double y = (b + d + f + h + j) / 5;
 
